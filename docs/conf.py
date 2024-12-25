@@ -28,8 +28,6 @@ extensions = [
     "sphinx.ext.doctest",  # For the doctests
     "sphinx.ext.mathjax",  # For latex-style math
     "sphinx_copybutton",  # Copybutton for the blocks
-    "sphinx_design",  # For the design elements on the from page
-    "numpydoc",  # For the numpy-style docstrings
 ]
 
 

@@ -14,9 +14,12 @@ help:
 	@echo "Available options are:\n"
 	@echo "    help - show this message"
 	@echo "    html - build the html docs"
+	@echo "    clean - clean build of the docs"
 	@echo
 
 # $(O) is meant as a shortcut for $(SPHINXOPTS).
 html:
 	@$(SPHINXBUILD) -M html "docs/$(SOURCEDIR)" "docs/$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+clean:
+	@rm -r docs/_build
