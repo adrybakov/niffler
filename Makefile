@@ -23,3 +23,5 @@ html:
 
 clean:
 	@rm -r docs/_build
+
+clean-html: clean html
